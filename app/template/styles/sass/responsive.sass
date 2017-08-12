@@ -1,1 +1,226 @@
-// @media screen and (max-width: 1390px)
+@media screen and (max-width: 1010px)
+	body, html
+		overflow-x: hidden
+	.container
+		width: 100%
+	.nav
+		z-index: 2
+		display: none
+		position: absolute
+		width: 100%
+		left: 0
+		top: 90px
+		color: white
+		padding-top: 15px
+		padding-bottom: 15px
+		background: linear-gradient(to top, #e7656b 0%, #ee859a 100%)
+		li
+			font-size: 18px
+			display: block
+			margin-right: 0
+			margin-bottom: 10px
+			&:last-of-type
+				margin-bottom: 0
+		a
+			color: white !important
+			border-color: transparent !important
+	.panel
+		text-align: center
+		padding-top: 22px
+		padding-bottom: 34px
+		&__logo
+			margin-right: 0
+			img
+				width: 195px
+		&__logo, &__content, &__contacts, &__button
+			float: none
+			max-width: 280px
+			margin-left: auto
+			margin-right: auto
+		&__button
+			display: block
+		&__phone
+			margin-bottom: 12px
+			margin-right: 0
+	.mobile-btn
+		display: block
+
+	.header
+		&__wrap
+			margin-right: 0
+
+	.counts
+		position: relative
+		z-index: 2
+		margin-top: -90px
+		&__item
+			float: none
+			width: 100%
+
+
+	.images
+		float: none
+		margin-top: 0
+		margin-left: auto
+		margin-right: auto
+		&:before
+			display: none
+		.slick-dots
+			left: 0
+		&__arrows
+			left: 0
+	
+	.about
+		margin-bottom: 60px
+		&__content
+			width: 100%
+			float: none
+
+	.masters
+		margin-bottom: 40px
+		&__col
+			display: inline
+			float: none
+			padding: 0
+		&__list
+			text-align: center
+			font-size: 0
+		&__item
+			display: inline-block
+			vertical-align: top
+			margin-bottom: 14px
+			font-size: 0
+			margin-left: 7px
+			margin-right: 7px
+			text-align: left
+		&__img
+			img
+				margin-left: auto
+				margin-right: auto
+		&__content
+			width: 100%
+			max-width: 220px
+			margin-left: auto
+			margin-right: auto
+		&__img, &__content
+			float: none !important
+	.services
+		&__list
+			float: none
+			position: relative
+			left: 0
+			width: calc(100% + 30px)
+			height: auto
+			padding-bottom: 30px
+			margin-left: -15px
+			margin-right: -15px
+		&__wrap
+			float: none
+			padding-left: 15px
+			margin-left: auto
+			margin-right: auto
+			max-width: 280px
+		&__content
+			float: none
+			padding-bottom: 15px
+			width: 100%
+	.service
+		margin-top: 0
+		&__list
+			ul
+				margin-bottom: 20px
+	.reviews
+		&__title
+			&:after
+				margin-bottom: 30px
+	.review
+		&__text
+			padding-left: 25px !important
+			padding-right: 25px !important
+		&__link
+			right: 22px
+			top: 22px
+			max-width: 65px
+			font-size: 12px
+			line-height: 15px
+@media screen and (max-width: 900px)
+	.contacts
+		height: auto
+		&__map
+			height: 560px
+		&__content
+			position: relative
+			top: 0
+		&__wrap
+			float: none
+			width: calc(100% + 30px)
+			margin-left: -15px
+			margin-right: -15px
+	.footer
+		font-size: 11px
+	.copy
+		margin-bottom: 15px
+	.copy, .dev
+		float: none
+		margin-left: auto
+		margin-right: auto
+		max-width: 280px
+@media screen and (max-width: 768px)
+	.header
+		background-position: 5% -110px
+		padding-top: 260px
+		min-height: 506px
+		background-size: 1236px auto
+		&__wrap
+			float: none
+		&__title
+			width: 280px
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 13px
+			img
+				width: 100%
+		&__arrow
+			display: none
+	.insta
+		&__desc, &__logo, &__name
+			float: none
+			margin-left: auto
+			margin-right: auto
+			text-align: center
+			width: 100%
+		&__desc, &__name
+			margin-top: 0
+		&__desc, &__logo
+			margin-bottom: 18px
+@media screen and (max-width: 690px)
+	.header
+		background-position: 10% -110px
+	.services__wrap
+		padding-left: 0
+@media screen and (max-width: 600px)
+	.header
+		background-position: 15% -110px
+
+	.insta
+		&__item
+			width: 50%
+			img
+				width: 100%
+	.service__list
+		ul
+			float: none
+			margin-right: 0 !important
+@media screen and (max-width: 500px)
+	.header
+		background-position: 20% -110px
+@media screen and (max-width: 410px)
+	.images
+		margin-left: -15px
+		margin-right: -15px
+		width: calc(100% + 30px)
+		img
+			width: 100%
+@media screen and (max-width: 390px)
+	.header
+		background-position: 23% -110px
